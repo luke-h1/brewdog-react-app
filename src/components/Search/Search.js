@@ -24,6 +24,7 @@ const Search = () => {
           </div>
           <h3>{data[i].name}</h3>
           <h3>{data[i].tagline}</h3>
+          <h3>Strength: {data[i].abv} %</h3>
           <h3>First Brewed: {data[i].first_brewed}</h3>
           <p>{data[i].description}</p>
         </div>
